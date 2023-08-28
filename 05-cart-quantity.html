@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart Quantity</title>
+  </head>
+  <body>
+    <p>Cart Quantity</p>
+    <strong><p>Adults Plain Cotton T-shirt</p></strong>
+    <p>Price: $7.99</p>
+    <button onclick="alert(`Cart Quantity: ${cartQuantity}`);">Show Quantity</button>
+    <button onclick="cartQuantity = cartQuantity + 1; alert(`Cart Quantity: ${cartQuantity}`);">Add to Cart</button>
+    <!--<button>+2</button>
+    <button>+3</button>-->
+    <button onclick="cartQuantity = cartQuantity * 0; alert(`Cart Quantity: ${cartQuantity}`);">Reset Cart</button>
+  </body>
+  <script src="js/cart.js"></script>
+</html>
